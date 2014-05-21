@@ -2,7 +2,7 @@
 	get_header(); 
 ?>
 
-Index
+Single
 
 <?php
 	get_footer();

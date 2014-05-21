@@ -2,7 +2,7 @@
 	get_header(); 
 ?>
 
-Index
+Category
 
 <?php
 	get_footer();

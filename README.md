@@ -18,3 +18,22 @@ Tags: desktop,light,dark
 Text Domain: Desktop theme
 */
 ```
+
+At this point you can go ahead and activate your theme. Once activated you can see blank screen as your website.
+
+Every theme has a header and a footer so we require a header.php and footer.php apart from this we also require some php files for
+tags : tag.php
+categories : category.php
+posts : single.php
+pages : page.php
+
+so we create all blank files for all 6 of them and put file name as content in them so we can test them as well. Browse following pages next
+Home Page
+A tag page
+A category page
+Page
+Any post page
+
+So we are good here, but wait where is header and footer? Since we are not reffering to header and footer so they are not displayed. Let us refer them, simply add `<?php	get_header(); ?>` at top of all the files (single, tag, category, index, page). and refresh above said pages again.
+
+Similarly add `<?php get_footer(); ?>` at the end of all 5 files and you will see footer displayed as well.

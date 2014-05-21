@@ -2,7 +2,7 @@
 	get_header(); 
 ?>
 
-Index
+Tag
 
 <?php
 	get_footer();
