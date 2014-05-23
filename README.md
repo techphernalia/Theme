@@ -1,3 +1,5 @@
+This repository has jQuery files, we will include the required licenses as soon as the things are finalized.
+
 Theme
 =====
 Basic requirement of any wordpress theme is index.php and style.css. First of all add these two files in our Theme directory.
