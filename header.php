@@ -17,6 +17,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<!-- TODO -->
+	<link rel='stylesheet' id='main-css'  href='<?php echo get_template_directory_uri(); ?>/black-tie/jquery-ui.min.css?ver=3.6' type='text/css' media='all' />
 	<link rel='stylesheet' id='main-css'  href='<?php echo get_template_directory_uri(); ?>/style.css?ver=3.6' type='text/css' media='all' />
 	<?php wp_head(); ?>
 </head>

@@ -10,6 +10,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: desktop,light,dark
 Text Domain: Desktop theme
 */
+body
+{
+	font-size: 10px;
+}
 .glossy
 {
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
@@ -77,3 +81,15 @@ Text Domain: Desktop theme
 	border-left: 1px solid rgb(127, 127, 127);
 	border-right: 1px solid rgb(255, 255, 255);
 }
+/*
+.dialog
+{
+	width: 70%;
+	margin: 0px auto;
+	position: absolute;
+	top: 5%;
+	bottom: 5%;
+	left: 15%;
+	right: 15%;
+	overflow: auto;
+}*/
